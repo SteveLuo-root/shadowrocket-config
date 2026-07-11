@@ -1,9 +1,10 @@
 #!name=Binance Proxy
-#!desc=Force all Binance traffic through proxy
+#!desc=Force Binance traffic through proxy
 
 [Rule]
 DOMAIN-KEYWORD,binance,PROXY
-DOMAIN-SUFFIX,appsflayer.com,PROXY
+DOMAIN-SUFFIX,bscdnweb.com,PROXY
+DOMAIN-SUFFIX,binance.info,PROXY
 DOMAIN-SUFFIX,binance.cloud,PROXY
 DOMAIN-SUFFIX,binance.com,PROXY
 DOMAIN-SUFFIX,binance.me,PROXY
