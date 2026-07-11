@@ -1,5 +1,17 @@
 #!name=Binance Proxy
-#!desc=Force Binance traffic through proxy
+#!desc=Force all Binance traffic through proxy
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Binance/Binance.list,PROXY
+DOMAIN-KEYWORD,binance,PROXY
+DOMAIN-SUFFIX,appsflayer.com,PROXY
+DOMAIN-SUFFIX,binance.cloud,PROXY
+DOMAIN-SUFFIX,binance.com,PROXY
+DOMAIN-SUFFIX,binance.me,PROXY
+DOMAIN-SUFFIX,binancecnt.com,PROXY
+DOMAIN-SUFFIX,binancefuture.com,PROXY
+DOMAIN-SUFFIX,bnappzh.co,PROXY
+DOMAIN-SUFFIX,bnbstatic.com,PROXY
+DOMAIN-SUFFIX,bnbzh.ac,PROXY
+DOMAIN-SUFFIX,bntrace.com,PROXY
+DOMAIN-SUFFIX,saasexch.cc,PROXY
+DOMAIN-SUFFIX,saasexch.com,PROXY
